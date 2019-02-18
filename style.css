@@ -1,0 +1,44 @@
+body {
+  background-image: url("./img/background5.png");
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #75dadd;
+  position: relative;
+}
+
+.topnav #dropMenu {
+  display: none;
+}
+
+.topnav a {
+  color: #1766aa;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #75dadd;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #75dadd;
+  color: #1766aa;
+}
+
+.active {
+  background-color: #7dc2ed;
+  color: #fca458;  /* coral */
+}
+
+.highlight {
+  color: #FFB800;
+  font-weight: bold;
+}
